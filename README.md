@@ -6,3 +6,5 @@ O participante então pode escolher se quer trocar a porta escolhida ou não.
 
 Sempre haverá a chance de (T - 1) / T de ganhar o premio caso o participante deseje trocar a porta, onde T é o número total de portas (neste caso 2/3).
 Se fizermos o jogo com 100 portas, após uma das portas serem escolhidas, são reveladas outras 98 portas que não contém o premio, sobrando apenas a porta escolhida e outra aleatória, neste caso haverá a chance de 99/100 de ganhar o premio caso o participante troque a porta.
+
+O algoritmo consiste em uma programação dinâmica sendo possível escolher qualquer número maior ou igual a 3 portas, onde irá rodar 10.000 simulações e irá mostrar a porcentagem adquirida no total.
