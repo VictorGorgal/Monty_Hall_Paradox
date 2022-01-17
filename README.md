@@ -1,4 +1,4 @@
-# Monty_Hall_Paradox
+# Monty Hall Paradox
 Inspirado pelo video: youtu.be/4Lb-6rxZxx0
 
 O problema consiste em 3 portas, onde atrás de apenas uma delas há um premio, após o participante escolher a porta, é revelado uma das 2 outras portas onde o premio não está.
