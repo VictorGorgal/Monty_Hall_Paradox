@@ -1,10 +1,10 @@
 # Monty Hall Paradox
-Inspirado pelo video: youtu.be/4Lb-6rxZxx0
+Inspired by: youtu.be/4Lb-6rxZxx0
 
-O problema consiste em 3 portas, onde atrás de apenas uma delas há um premio, após o participante escolher a porta, é revelado uma das 2 outras portas onde o premio não está.
-O participante então pode escolher se quer trocar a porta escolhida ou não.
+The problem consists of 3 doors, where behind only one of them there is a prize, after the participant has chosen the door, one of the 2 other doors where the prize is not is revealed.
+The participant can then choose whether to change the chosen door or not.
 
-Sempre haverá a chance de (T - 1) / T de ganhar o premio caso o participante deseje trocar a porta, onde T é o número total de portas (neste caso 2/3).
-Se fizermos o jogo com 100 portas, após uma das portas serem escolhidas, são reveladas outras 98 portas que não contém o premio, sobrando apenas a porta escolhida e outra aleatória, neste caso haverá a chance de 99/100 de ganhar o premio caso o participante troque a porta.
+There will always be a chance of (T - 1) / T to win the prize if the participant wants to change the door, where T is the total number of doors (in this case 2/3).
+If we play the game with 100 doors, after one of the doors is chosen, another 98 doors are revealed that do not contain the prize, leaving only the chosen door and another random one, in this case there will be a 99/100 chance of winning the prize if the participant change the door.
 
-O algoritmo consiste em uma programação dinâmica sendo possível escolher qualquer número maior ou igual a 3 portas, onde irá rodar 10.000 simulações e irá mostrar a porcentagem adquirida no total.
+The algorithm consists of a dynamic algorithm and it is possible to choose any number greater than or equal to 3 doors, where 10_000 simulations will be run and the percentage of participants who changed the door will be shown along with the percentage of those who decided not to change the door.
